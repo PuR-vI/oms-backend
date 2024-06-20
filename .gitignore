@@ -1,0 +1,22 @@
+# Ignore Python bytecode files
+__pycache__/
+
+# Ignore environment-specific settings
+.env
+
+# Ignore SQLite database
+db.sqlite3
+
+# Ignore backups folder (if you store backups locally)
+backups/
+
+# Ignore generated files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore local development settings
+*.log
+
+# Ignore virtual environment
+venv/
